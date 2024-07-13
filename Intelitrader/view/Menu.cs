@@ -9,7 +9,7 @@ namespace Intelitrader.view
         public void exibir()
         {
             Console.Write("Digite o número da opção desejada\n1) Problema 1\n2) Problema 2\n0) Sair\n>>");
-            string op = Console.ReadLine();
+            string? op = Console.ReadLine();
 
             switch (op)
             {
